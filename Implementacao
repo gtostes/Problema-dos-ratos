@@ -49,6 +49,6 @@ int main(){
 	while(Nu<N) Nu<<=1, log2N++;
 	int s=solve();
 	int M=Mmin(s);
-	cout << "Para chegar a um minimo global precisam ser usados " << M << " ratos" << endl << "Para um pior caso em que " << s << " morrem, " <<  (M-s) << " sobrevivem";
+	cout << "Para chegar a um minimo global precisam ser usados " << M << " ratos" << endl << "Com um pior caso em que " << s << " morrem, " <<  (M-s) << " sobrevivem";
 	cout << " e temos um minimo para a*c1+ (M-a)*c2 de "  << s*c1 + (M-s)*c2 << endl;
 }
